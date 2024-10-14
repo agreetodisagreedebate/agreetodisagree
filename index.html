@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debate Forum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="forum-container">
+        <div class="forum-header">
+            <h1>Agree/Disagree/Solutions</h1>
+            <p>QUESTION</p>
+        </div>
+        <div class="comment-section">
+            <textarea class="comment-input" placeholder="Write your thoughts..."></textarea>
+            <button class="publish-button">Publish</button>
+        </div>
+        <div class="comments-list">
+            <!-- Comments will be injected here -->
+        </div>
+    </div>
+
+    <!-- Hidden emoji options that will appear on hover -->
+    <div class="like-options" id="like-options">
+        <span class="emoji">😡</span> <!-- Angry -->
+        <span class="emoji">👍</span> <!-- Like -->
+        <span class="emoji">❤️</span> <!-- Heart -->
+        <span class="emoji">🤔</span> <!-- Thinking -->
+        <span class="emoji">❓</span> <!-- Question -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
